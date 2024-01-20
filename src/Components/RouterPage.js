@@ -13,7 +13,7 @@ export default function RouterPage() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Login/>}/>
+        <Route path='/login' element={<Login/>}/>
         <Route path='/registration' element={<Registration/>}/>
         <Route path='/myprofile' element={<Profile/>}/>
         <Route path='/myeducation' element={<Education/>}/>
