@@ -9,6 +9,7 @@ import CourseDetail from './Users/CourseDetail'
 
 import AdminEducation from './Admin/AdminEducation';
 import AdminDashboard from './Admin/AdminDashboard';
+import CustomerList from './Admin/CustomerList';
 
 export default function RouterPage() {
   return (
@@ -23,6 +24,7 @@ export default function RouterPage() {
         <Route path='/coursedetail' element={<CourseDetail/>}/>
         <Route path='/admineducation' element={<AdminEducation/>}/>
         <Route path='/admindashboard' element={<AdminDashboard/>}/>
+        <Route path='/customerlist' element={<CustomerList/>}/>
       </Routes>
     </Router>
   )

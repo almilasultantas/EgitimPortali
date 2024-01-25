@@ -59,7 +59,7 @@ function AdminEducation() {
             <Form.Control type="file" onChange={handleChange}/>
           </Form.Group>
         </Row>
-        <Button variant="success">Kursu Yükle</Button>
+        <Button variant="success" href="/admindashboard">Kursu Yükle</Button>
       </Container>
   )
 }
