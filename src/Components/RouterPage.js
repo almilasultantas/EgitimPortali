@@ -5,6 +5,7 @@ import Registration from './Registration';
 import Profile from './Users/Profile';
 import Education from './Users/Education';
 import Dashboard from './Users/Dashboard';
+import CourseDetail from './Users/CourseDetail'
 
 import AdminEducation from './Admin/AdminEducation';
 import AdminDashboard from './Admin/AdminDashboard';
@@ -17,9 +18,9 @@ export default function RouterPage() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/registration' element={<Registration/>}/>
         <Route path='/myprofile' element={<Profile/>}/>
-        <Route path='/myeducation' element={<Education/>}/>
+        <Route path='/' element={<Education/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
-
+        <Route path='/coursedetail' element={<CourseDetail/>}/>
         <Route path='/admineducation' element={<AdminEducation/>}/>
         <Route path='/admindashboard' element={<AdminDashboard/>}/>
       </Routes>

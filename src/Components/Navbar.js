@@ -6,7 +6,7 @@ function TextLinkExample() {
   return (
     <Navbar className="bg-body-tertiary " bg="light" data-bs-theme="light">
       <Container>
-        <Navbar.Brand href="#home"><img
+        <Navbar.Brand href="/"><img
               alt=""
               src={Logo}
               width="100"
@@ -15,7 +15,7 @@ function TextLinkExample() {
             />
         </Navbar.Brand>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-            <Nav.Link href="/myeducation">Eğitim Katoloğu</Nav.Link>
+            <Nav.Link href="/">Eğitim Katoloğu</Nav.Link>
             <Nav.Link href="/myprofile">Profil</Nav.Link>
             <Nav.Link href="/login">Pricing</Nav.Link>
           </Nav>
@@ -23,7 +23,7 @@ function TextLinkExample() {
         <Navbar.Collapse className="justify-content-end">
           
           <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+          <Nav.Link href="/login">Giriş Yap/Kaydol </Nav.Link>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
