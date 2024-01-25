@@ -16,7 +16,7 @@ function Education() {
         
 
       
-    </div>
+    </div >
     
   )
 }

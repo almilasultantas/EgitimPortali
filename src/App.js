@@ -1,9 +1,11 @@
 
 import './App.css';
 
+
 import Navbar from './Components/Navbar';
-import Registration from './Components/Registration';
+
 import RouterPage from './Components/RouterPage';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Navbar/>
       
       <RouterPage/>
+    
+      <Footer/>
     </div>
   );
 }

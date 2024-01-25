@@ -16,8 +16,6 @@ function TextLinkExample() {
         </Navbar.Brand>
         <Nav className="justify-content-end flex-grow-1 pe-3">
             <Nav.Link href="/">Eğitim Katoloğu</Nav.Link>
-            <Nav.Link href="/myprofile">Profil</Nav.Link>
-            <Nav.Link href="/login">Pricing</Nav.Link>
           </Nav>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">

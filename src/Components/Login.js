@@ -35,7 +35,7 @@ function Login() {
      
       </Form.Group>
     </Form>
-
+    <Button variant="primary" href="/admineducation">Admin Giriş</Button>{' '}
     
     </Container>
     
